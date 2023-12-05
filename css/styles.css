@@ -1,0 +1,253 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* AQUI EMPIEZA MI CODIGO */
+
+.headerContenedor {
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: column;
+    width: 1450px;
+    position: relative;
+    border-width: 10px 0 0;
+    border-top-style: solid;
+    -o-border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+    border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+    
+    
+}
+
+.navHeader {
+    border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;;
+    height: 70px;
+    width: 1450px;
+    background-color: #ffffff;
+    margin-bottom: 1px;
+    padding: 10px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.navMenu {
+    width: 590px;
+    height: 35px;
+    padding: 10px 0 10px 0;
+    margin-left: 100px;
+    color: black;
+    
+}
+.navMenu ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+    font-size: 14px;
+}
+
+.navHeart {
+    color: black;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.buttonNav {
+    font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+    background: transparent;
+    outline: none !important;
+    border: none;
+    font-size: 14px;
+    padding-right: 450px;
+}
+
+.buttonNav:hover {
+    color: lightslategray;
+    cursor: pointer;
+}
+.navHeart:hover {
+    color: lightslategray;
+    cursor: pointer; 
+}
+.navMenu:hover {
+    color: lightslategray;
+    cursor: pointer; 
+}
+/* NAVEGADOR DE BUSQUEDA */
+
+.navSearch {
+    margin-top: 1px;
+    height: 90px;
+    width: 1450px;
+    background-color: #ffffff;
+    padding: 10px;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+
+.npmLogo {
+    width: 70px;
+    height: 35px;
+}
+
+.divSearch {
+   
+    width: 850px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background: #f2f2f2;
+    justify-content: space-between;
+}
+
+.searchTool {
+    width: 18px;
+    height: 18px;
+    color: grey;
+    padding-left: 5px;
+}
+.barraBusqueda {
+    width: 700px;
+    height: 40px;
+    background: none;
+    font-family: 'Fira Mono', 'Andale Mono', 'Consolas', monospace;
+    font-size: 16px;
+    letter-spacing: 0px;
+    border: none;
+    outline: unset;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 0;
+    width: calc(100% - 10px);
+    -webkit-appearance: none;
+
+}
+
+.btnSearch {
+    width: 116px;
+    height: 52px;
+    font-family:'Fira Mono', 'Andale Mono', 'Consolas', monospace;
+    letter-spacing: 0.3px;
+    outline-offset: 3px;
+    font-weight: bold;
+    background-color: #231f20;
+    color: white;
+    padding-right: 50px;
+}
+
+.divSignUp {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    gap: 50px;
+    padding-right: 300px;
+
+}
+
+.signUp {
+    width: 116px;
+    height: 52px;
+    font-family:'Fira Mono', 'Andale Mono', 'Consolas', monospace;
+    letter-spacing: 0.3px;
+    outline-offset: 3px;
+    font-weight: bold;
+    background-color: white;
+    color: grey;
+}
+
+.divSignIn {
+    width: 100px;
+    height: 52px;
+    background-color: #ff4b01;
+}
+.signIn {
+    color: grey; 
+    font-family:'Fira Mono', 'Andale Mono', 'Consolas', monospace;
+   
+}
+
+/* MAIN  */
+.backgroundImage {
+    width: 1450px;
+    height: 850px;
+}
+
+.whiteSection {
+    background-color: white;
+    width: 1450px;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.whiteSectionDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    align-items: center;
+}
+
+.whiteSectionDiv img {
+    width: 100px;
+    height: 100px;
+}
+
+.whiteSectionDiv h2 {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
